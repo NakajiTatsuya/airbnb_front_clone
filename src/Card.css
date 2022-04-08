@@ -1,0 +1,40 @@
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden; /** 領域内に収まりきらない内容は、非表示 */
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75); /** ボックスの影 順に、左右の向きpx  上下の向きpx ぼかしpx 広がりpx 色 内側指定 */
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+  }
+
+/** マウスオーバー(hover)したときに */
+.card:hover {
+    transform: scale(1.07); /** Equal to scaleX(0.7) scaleY(0.7) */
+}
+
+.card > img {
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.card__info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
+
+.card__info > h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card__info > h4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
