@@ -1,5 +1,33 @@
 # Getting Started with Create React App
 
+# Summary
+This is airbnb clone of frontend with react with typescript.
+
+# Environment
+```
+$ npm list --depth=0
+airbnb@0.1.0 airbnb
+├── @emotion/react@11.9.0
+├── @emotion/styled@11.8.1
+├── @mui/icons-material@5.6.0
+├── @mui/material@5.6.0
+├── @testing-library/jest-dom@5.16.4
+├── @testing-library/react@12.1.4
+├── @testing-library/user-event@13.5.0
+├── @types/jest@27.4.1
+├── @types/node@16.11.26
+├── @types/react-date-range@1.4.3
+├── @types/react@17.0.44
+├── date-fns@2.28.0
+├── react-date-range@1.4.0
+├── react-dom@18.0.0
+├── react-router-dom@6.3.0
+├── react-scripts@5.0.0
+├── react@18.0.0
+├── typescript@4.6.3
+└── web-vitals@2.1.4
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
